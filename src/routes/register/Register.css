@@ -1,0 +1,48 @@
+/* Style for the form */
+.Register-form {
+  width: 100%;
+  max-width: 400px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-left: -20px;
+}
+
+.Register-form input {
+  width: calc(100% - 22px); /* Full width minus padding and border */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Register-form input[type="text"],
+.Register-form input[type="email"],
+.Register-form input[type="password"],
+.Register-form input[type="url"] {
+  font-size: 16px;
+}
+
+.Register-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Primary color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.Register-form button:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.Register-form button:active {
+  background-color: #004494; /* Even darker shade for active effect */
+  transform: scale(0.98); /* Slightly scale down the button when pressed */
+}
